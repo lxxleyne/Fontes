@@ -1,0 +1,59 @@
+/*Importando fonte do google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.cdnfonts.com/css/transformers');
+@import url('https://fonts.cdnfonts.com/css/avatar');
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+
+/*reset básico*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12; /*Alterar o estilo da fonte*/
+   font-size:100px; 
+   text-align: center;
+
+}
+
+p{
+    font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 18px; /*tamanho da fonte aumetan/diminui*/
+    font-weight: 500; /*altera a largura da fonte*/
+}
+
+h2{
+    font-family: 'Minecraft', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Transformers', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#Ava{
+    font-family: 'Avatar', sans-serif;
+    font-size: 70px;
+}
+
+#Bat{
+    font-family: 'BatmanForeverOutline', sans-serif;
+font-family: 'BatmanForeverAlternate', sans-serif;
+}
