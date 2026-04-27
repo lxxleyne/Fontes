@@ -1,0 +1,22 @@
+/*reset básico*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.card{
+    width: 420px;
+    display: inline-block;
+    text-align: center;
+    border: solid 10px rgb(248, 248, 18);
+}
+.card img{
+    width: 400px;
+    border-radius: 10px;
+}
+.musicas{
+    border: solid 2px rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 10%;
+}
